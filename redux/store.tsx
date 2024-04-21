@@ -19,6 +19,9 @@ const persistConfig = {
 export interface RootState {
   attendance: {
     name: string;
+    role?: string;
+    password?: string;
+    email?: string;
     attendance: any[];
   };
 }
